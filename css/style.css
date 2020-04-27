@@ -348,8 +348,24 @@ body {
   margin-left: 5px;
 }
 
-/****** SLAPJACKPAGE ******/
+/****** SLAPJACK PAGE ******/
 #slapjack-game-header {
   width: 366px;
   height: 71px;
+}
+
+/****** PERSONAL TRAINING APP PAGE ******/
+#personal-training-app-header {
+  width: 415px;
+  height: 71px;
+}
+
+#add-page-header {
+  width: 303px;
+  height: 529px;
+}
+
+#developing-features-header {
+  width: 270px;
+  height: 53px;
 }
