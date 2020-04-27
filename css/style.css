@@ -10,11 +10,11 @@ body {
 }
 
 .main-page {
-  background-image: url("img/background/background.jpg");
+  background-image: url("../img/background/background.jpg");
 }
 
 .sub-page {
-  background-image: url("img/background/subpage-background.jpg");
+  background-image: url("../img/background/subpage-background.jpg");
 }
 
 /* navbar */
