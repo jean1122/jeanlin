@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slapjack Game</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="sub-page">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto" id="menu-content-text">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pdf/Kuan-Chun(Jean)-Lin-Resume.pdf">RESUME</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="project-intro">
+      <!-- header -->
+      <img src="img/header/slapjack-game.png" alt="" id="slapjack-game-header">
+
+      <div class="subpage-project">
+        <div class="row">
+          <div class="column">
+            <img src="img/projects/slapjack.png" alt="" id="ipad-image">
+          </div>
+
+          <div class="col-md-6 col-sm-auto">
+            <div class="subpage-intro-right">
+              <!-- about -->
+              <div class="row">
+                <img src="img/header/about.png" alt="" id="about-header">
+              </div>
+              <div class="row">
+                <div class="subpage-intro-right-description">
+                  <p>
+                    This project is a two-player Slapjack game designed with C and ARM Assembly
+                    Language inspired by the poker game Slapjack.
+                    It is a game in which player who snap the jack first
+                    wins the game (jack is the card that matches the count).
+                    displayed number match the count wins the game. The projects involves
+                    knowledge of C, Computer Organization, ARM Assembly Language, and FPGA board.
+                  </p>
+                </div>
+              </div>
+
+              <!-- accomplishment -->
+              <div class="row">
+                <img src="img/header/accomplishment.png" alt="" id="accomplishment-header">
+              </div>
+              <div class="row">
+                <div class="subpage-intro-right-description">
+                  <ul>
+                    <li>Designed graphic component of the game</li>
+                    <li>Designed the functions of the game</li>
+                  </ul>
+                </div>
+              </div>
+
+
+              <!-- skills -->
+              <div class="row">
+                <img src="img/header/skills.png" alt="" id="skills-header">
+              </div>
+              <div class="row">
+                <div class="subpage-intro-right-description">
+                  <p>C, ARM Assembly Language, De1-SoC Board, VGA Monitor</p>
+                </div>
+              </div>
+
+              <!-- collaborators -->
+              <div class="row">
+                <img src="img/header/collaborators.png" alt="" id="collaborators-header">
+              </div>
+              <div class="row">
+                <div class="subpage-intro-right-description">
+                  <p>Joseph Yang</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="project-description">
+          <table>
+            <!-- description -->
+            <tr>
+              <td>
+                <img src="img/header/description.png" alt="" id="description-header">
+              </td>
+              <td class="project-description-text">
+                <div class="col-sm-9">
+                  <p>
+                    Slapjack, a classic poker card game, is a game that challenges player's
+                    reaction capability. Among the two players, the first person to snap the
+                    right card will win the round. However, if the player snap the wrong card,
+                    the opponent player will unconditionally win the round. Each player is
+                    given 3 hearts indicating their score status. The player who lose the round
+                    will lose 1 heart; the first player to lose all 3 hearts lose the game.
+                    The game is controlled using De1-SoC board (FPGA board), which has the following
+                    functions:
+                    <br>
+                    <br>
+                    <ul>
+                      <li>FPGA Keys: Dealing and snapping the card
+                        (Key 0 & 1 for Player 1; Key 2 & 3 for Player 2)
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </td>
+            </tr>
+
+            <!-- game rules -->
+            <tr>
+              <td>
+                <img src="img/header/game-rule.png" alt="" id="game-rule-header">
+              </td>
+              <td class="project-description-text">
+                <div class="col-sm-9">
+                  <ul style="margin-left: -23px; margin-bottom: 50px;">
+                    <li>Each player is given 3 hearts in every game</li>
+                    <li>Player who snap the wrong card will lose 1 heart</li>
+                    <li>Player who snap the right card last will lose 1 heart</li>
+                    <li>The first player to lose all 3 hearts lose the game</li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- bottom header -->
+    <section class="bottom-header">
+      <div class="bottom-header-text">
+        <p style="padding-top: 1.5%">jeanlinkcl@gmail.com</p>
+        <div class="icon">
+          <img src="img/icon/linkedin.png" alt="">
+          <img src="img/icon/email.png" alt="">
+          <img src="img/icon/github.png" alt="">
+        </div>
+        <p><br>Designed and Coded by Jean (Kuan-Chun) Lin 😊</p>
+        <p>Copyright © Jean Kuan-Chun Lin 2020</p>
+      </div>
+    </section>
+
+  </body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flappy Bird Game</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="sub-page">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto" id="menu-content-text">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pdf/Kuan-Chun(Jean)-Lin-Resume.pdf">RESUME</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="project-intro">
+      <!-- header -->
+      <img src="img/header/flappy-bird-game.png" alt="" id="flappy-bird-game-header">
+
+      <div class="subpage-project">
+        <div class="row">
+          <div class="column">
+            <img src="img/projects/flappy-bird.png" alt="" id="ipad-image">
+          </div>
+
+          <div class="col-md-6 col-sm-auto">
+            <div class="subpage-intro-right">
+              <!-- about -->
+              <div class="row">
+                <img src="img/header/about.png" alt="" id="about-header">
+              </div>
+              <div class="row">
+                <div class="subpage-intro-right-description">
+                  <p>
+                    This is a project recreates the classic mobile game, Flappy Bird, using Verilog.
+                    It is a game in which the player controls a bird to fly over different obstacles.
+                    The projects involves the knowledge of Verilog, Digital System, and FPGA board.
+                  </p>
+                </div>
+              </div>
+
+              <!-- accomplishment -->
+              <div class="row">
+                <img src="img/header/accomplishment.png" alt="" id="accomplishment-header">
+              </div>
+              <div class="row">
+                <div class="subpage-intro-right-description">
+                  <ul>
+                    <li>Used finite state machine to design game animation</li>
+                    <li>Designed graphic component of the game</li>
+                    <li>Designed the functions of the game</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- skills & Collaborators -->
+              <div class="row">
+                <div class="column">
+                  <div class="row" style="margin-left: 5%;">
+                    <img src="img/header/skills.png" alt="" id="skills-header">
+                  </div>
+                  <div class="row" style="margin-left: 5%; margin-right:-10%">
+                    <div class="subpage-intro-right-description">
+                      <p>Verilog, De1-SoC Board, VGA Monitor</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column" style="margin-left: 30%;">
+                  <div class="row">
+                    <img src="img/header/collaborators.png" alt="" id="collaborators-header">
+                  </div>
+                  <div class="row">
+                    <div class="subpage-intro-right-description">
+                      <p>Joseph Yang</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- demo button -->
+              <div class="row">
+                <a href="https://youtu.be/XqLpLndgme4">
+                  <button type="button" name="button" class="demo">→ See Demo</button>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="project-description">
+          <table>
+            <!-- description -->
+            <tr>
+              <td>
+                <img src="img/header/description.png" alt="" id="description-header">
+              </td>
+              <td class="project-description-text">
+                <div class="col-sm-9">
+                  <p>
+                    The classic mobile game, Flappy Bird, is a game that player can control the bird
+                    to fly up to a certain height to avoid obstables. The game board is displayed on
+                    VGA monitor. To start, the player has to toggle the keys on FPGA board to keep the
+                    bird in certain height; otherwise, the bird will fall on its own if no action is done.
+                    In order to win the game, the player has to make the bird fly through obstacles with
+                    different height. The game is controlled using De1-SoC board (FPGA board), which has
+                    the following functions:
+                    <br>
+                    <br>
+                    <ul>
+                      <li>FPGA LED: Displays remaining lives of the bird</li>
+                      <li>FPGA Keys: Controls the bird to fly up or reset the game</li>
+                      <li>FPGA Hex Display: Displays score board</li>
+                      <li>FPGA Switch: Controls the game's difficulty level</li>
+                    </ul>
+                  </p>
+                </div>
+              </td>
+            </tr>
+
+            <!-- game rules -->
+            <tr>
+              <td>
+                <img src="img/header/game-rule.png" alt="" id="game-rule-header">
+              </td>
+              <td class="project-description-text">
+                <div class="col-sm-9">
+                  <ul style="margin-left: -23px;">
+                    <li>Each player is given 3 lives in each game</li>
+                    <li>Player will lose 1 life if the bird hits any obstables, floor, or ceiling</li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+
+            <!-- features -->
+            <tr>
+              <td>
+                <img src="img/header/features.png" alt="" id="features-header">
+              </td>
+              <td class="project-description-text">
+                <div class="col-sm-9">
+                  <img src="img/header/speed-control.png" alt="" id="speed-control-header">
+
+                  <div class="speed-control-text">
+                    <p>
+                      The game consists 3 levels of difficulty: easy, medium, hard. The
+                      difficulty level depends on how fast the bird moves. To choose the
+                      level of difficulty, player can toggle switches on De1-SoC board:
+                      <ul>
+                        <li>Toggle Switch 0: Easy Level</li>
+                        <li>Toggle Switch 0 & 1: Medium Level</li>
+                        <li>Toggle Switch 0 & 1 & 2: Hard Level</li>
+                      </ul>
+                    </p>
+                  </div>
+
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- bottom header -->
+    <section class="bottom-header">
+      <div class="bottom-header-text">
+        <p style="padding-top: 1.5%">jeanlinkcl@gmail.com</p>
+        <div class="icon">
+          <img src="img/icon/linkedin.png" alt="">
+          <img src="img/icon/email.png" alt="">
+          <img src="img/icon/github.png" alt="">
+        </div>
+        <p><br>Designed and Coded by Jean (Kuan-Chun) Lin 😊</p>
+        <p>Copyright © Jean Kuan-Chun Lin 2020</p>
+      </div>
+    </section>
+
+  </body>
+</html>
