@@ -97,21 +97,44 @@ body {
 }
 
 .project-name-left {
-  margin-left: 10%;
+  margin-left: 12%;
   margin-right: 10%;
+  margin-top: 20px;
   text-align: left;
   position: absolute;
   left: 0px;
-  width: 50%;
+  width: 40%;
 }
 
 .project-name-right {
   margin-left: 50%;
   margin-right: 10%;
-  text-align: right;
+  margin-top: 20px;
+  text-align: left;
   position: absolute;
   right: 0px;
-  width: 50%;
+  width: 40%;
+}
+
+.project-mini-description-right {
+  margin-right: 10%;
+  margin-top: 8%;
+  text-align: left;
+  position: absolute;
+  right: 0px;
+  width: 40%;
+  font-size: 18px;
+}
+
+.project-mini-description-left {
+  margin-left: 12%;
+  margin-right: 10%;
+  margin-top: 8%;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  width: 40%;
+  font-size: 18px;
 }
 
 .project-image-left {
@@ -456,10 +479,6 @@ body {
   height: 42px;
 }
 
-.skills {
-  margin-top: 20px;
-}
-
 .skills-text {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -469,4 +488,19 @@ body {
 #relevant-courses-header {
   width: 184px;
   height: 42px;
+}
+
+.back-to-project {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+#experiences-header {
+  width: 172px;
+  height: 56px;
+}
+
+.about-list-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
