@@ -14,6 +14,14 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+    <!-- AOS Library -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <!-- <script type="text/javascript" src="js/index.js"></script> -->
+
+
+
+
   </head>
   <body class="main-page">
 
@@ -46,7 +54,7 @@
             Currently, I am a 3rd year Electrical & Computer engineering student at the University of Toronto.</h2>
         <h4> <br>Scroll down to see my projects!</h4>
       </div>
-      <div class="home-image">
+      <div class="home-image" data-aos="fade-down">
         <img src="img/software-breadman.png" alt="" id="software-breadman">
       </div>
 
@@ -85,17 +93,17 @@
 
       <!-- project 1 -->
       <section class="project-orange" id="project1">
-        <div class="project-image-phone-right">
+        <div class="project-image-phone-right" data-aos="fade-left">
           <img src="img/projects/doni.png" alt="" id="iphone-image-still">
           <img src="img/projects/doni.png" alt="" id="iphone-image-still">
         </div>
         <div class="row">
-          <div class="project-name-left">
+          <div class="project-name-left" data-aos="fade-right">
             <h2 style="padding-top: 4%">01 &nbsp Doni.</h2>
           </div>
         </div>
         <div class="row">
-          <div class="project-mini-description-left">
+          <div class="project-mini-description-left" data-aos="fade-right">
             <p>
               An in-progress gift recommendation application that uses the technique of machine learning and database to help users find the most suitable gift.
               <br><br>
@@ -108,17 +116,17 @@
 
       <!-- project 2 -->
       <section class="project-yellow" id="project2">
-        <div class="project-image-left">
+        <div class="project-image-left" data-aos="fade-right">
           <a href="smapper.html"><img src="img/projects/map.png" alt="" id="ipad-image"></a>
         </div
 
         <div class="row">
-          <div class="project-name-right">
+          <div class="project-name-right" data-aos="fade-left">
             <h2 style="padding-top: 5%">02 &nbsp sMapper (GIS System)</h2>
           </div>
         </div>
         <div class="row">
-          <div class="project-mini-description-right">
+          <div class="project-mini-description-right" data-aos="fade-left">
             <p>
               A responsive mapping software designed for seniors who are still mobile but are experiencing aging problems.
               The application is designed with C++ and supports features, such as quick search and auto-correct.
@@ -126,6 +134,8 @@
             </p>
             <h6>Programming Language: C++<br><br></h6>
             <a href="smapper.html" style="color:black"><h6>>> &nbsp Details</h6></a>
+
+
           </div>
         </div>
 
@@ -133,17 +143,17 @@
 
       <!-- project 3 -->
       <section class="project-orange" id="project3">
-        <div class="project-image-phone-right">
+        <div class="project-image-phone-right" data-aos="fade-left">
           <a href="personal-training-app.html"><img src="img/projects/training-app.png" alt="" id="iphone-image"></a>
           <a href="personal-training-app.html"><img src="img/projects/add-page.png" alt="" id="iphone-image"></a>
         </div>
         <div class="">
-          <div class="project-name-left">
+          <div class="project-name-left" data-aos="fade-right">
             <h2 style="padding-top: 4%">03 &nbsp Personal Training App.</h2>
           </div>
         </div>
         <div class="row">
-          <div class="project-mini-description-left">
+          <div class="project-mini-description-left" data-aos="fade-right">
             <p>
               A personal training application that allows users to customize their training routines and training sets of their preference.
               The application is deisnged with Java and database is designed with SQLite on Android Studio.
@@ -158,16 +168,16 @@
 
       <!-- project 4 -->
       <section class="project-yellow" id="project4">
-        <div class="project-image-left">
+        <div class="project-image-left" data-aos="fade-right">
           <a href="flappy-bird.html"><img src="img/projects/flappy-bird.png" alt="" id="ipad-image"></a>
         </div>
         <div class="row">
-          <div class="project-name-right">
+          <div class="project-name-right" data-aos="fade-left">
             <h2 style="padding-top: 5%">04 &nbsp Flappy Bird -like Game</h2>
           </div>
         </div>
         <div class="row">
-          <div class="project-mini-description-right">
+          <div class="project-mini-description-right" data-aos="fade-left">
             <p>
               A replication of the classic game - flappy bird - that is designed with Verilog and incorporated with the use of De1-SoC Board (FPGA).
               On top of the original game, the replicated version supports speed control features.
@@ -182,16 +192,16 @@
 
       <!-- project 5 -->
       <section class="project-orange" id="project5">
-        <div class="project-name-left">
+        <div class="project-name-left" data-aos="fade-right">
           <h2 style="padding-top: 4%">05 &nbsp Slapjack -like Game</h2>
         </div>
         <div class="row">
-          <div class="project-image-right">
+          <div class="project-image-right" data-aos="fade-left">
             <a href="slapjack.html"><img src="img/projects/slapjack.png" alt="" id="ipad-image"></a>
           </div>
         </div>
         <div class="row">
-          <div class="project-mini-description-left">
+          <div class="project-mini-description-left" data-aos="fade-right">
             <p>
               A replication of the poker game - slapjack - that is designed with C and ARM Assembly and incorporated with the use of De1-SoC Board (FPGA).
               Different than the original game, this replication version supports life count and remove poker card suits.
@@ -218,6 +228,8 @@
         <p>Copyright © Jean Kuan-Chun Lin 2020</p>
       </div>
     </section>
+
+    <script type="text/javascript" src="js/index.js"></script>
 
 
   </body>
