@@ -22,6 +22,11 @@ body {
   font-family: 'Playfair Display', serif !important;
 }
 
+.navbar.scrolled {
+  background-color: white !important;
+  font-family: 'Playfair Display', serif !important;
+}
+
 .nav-item a{
   color: black;
 }
@@ -164,12 +169,25 @@ body {
   position: absolute;
 }
 
+#ipad-image:hover {
+  transform: scale(1.05);
+}
+
 #ipad-image {
   width: 569.77px;
   height: 427.04px;
 }
 
 #iphone-image {
+  width: 253;
+  height: 450px;
+}
+
+#iphone-image:hover {
+  transform: scale(1.05);
+}
+
+#iphone-image-still {
   width: 253;
   height: 450px;
 }
