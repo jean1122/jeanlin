@@ -169,6 +169,24 @@ body {
   position: absolute;
 }
 
+.badge {
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+  margin-right: 10px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.badge-yellow {
+  background-color: #FBE4B3;
+}
+
+.badge-orange {
+  background-color: #FFD6C2;
+}
+
 #ipad-image:hover {
   transform: scale(1.05);
 }
