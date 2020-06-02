@@ -4,14 +4,32 @@
   font-weight: 400;
 }
 
-body {
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+html {
+  overflow-x: hidden;
 }
 
-.main-page {
-  background-image: url("../img/background/background.jpg");
+@media (min-width: 768px) {
+  .main-page {
+    background-image: url("../img/background/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
 }
+
+/* .main-page {
+  background-image: url("../img/background/background.jpg");
+} */
 
 .sub-page {
   background-image: url("../img/background/subpage-background.jpg");
@@ -69,6 +87,65 @@ body {
 #software-breadman {
   width: 80%;
   height: auto;
+}
+
+@media (max-width: 1440px) {
+
+  .home-intro h1 {
+    font-size: 60px;
+  }
+
+  .home-intro h2 {
+    font-size: 30px;
+  }
+
+  .home-intro h4 {
+    font-size: 20px;
+  }
+
+  .home-image img {
+    max-width: 400px;
+  }
+
+  .home-image {
+    margin-top: 15%;
+  }
+
+}
+
+@media (max-width: 1280px) {
+
+  .home-intro h1 {
+    font-size: 40px;
+  }
+
+  .home-intro h2 {
+    font-size: 20px;
+  }
+
+  .home-intro h4 {
+    font-size: 16px;
+  }
+
+  .home-image img {
+    max-width: 300px;
+  }
+
+  .home-image {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    overflow-x: hidden;
+    background: cover;
+    background-size: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
 /* project section */
